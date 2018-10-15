@@ -11,4 +11,6 @@ import Foundation
 struct Gem {
     var name: String
     var info: String?
+    
+    
 }
