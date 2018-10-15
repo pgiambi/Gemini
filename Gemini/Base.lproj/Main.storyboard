@@ -12,7 +12,7 @@
         <!--Map-->
         <scene sceneID="zhd-jl-5r3">
             <objects>
-                <viewController id="Fhs-Yk-VBU" sceneMemberID="viewController">
+                <viewController id="Fhs-Yk-VBU" customClass="mapViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G1J-eI-NAv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,12 +23,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kNE-Nn-2X6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-684" y="125"/>
+            <point key="canvasLocation" x="-684" y="124.58770614692655"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Explore Collection View Controller-->
         <scene sceneID="FcU-iI-6Lt">
             <objects>
-                <collectionViewController id="jz2-gI-QIR" sceneMemberID="viewController">
+                <collectionViewController id="jz2-gI-QIR" customClass="exploreCollectionViewController" customModule="Gemini" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="pfL-0W-aEx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="149.59999999999999" y="-533.88305847076469"/>
         </scene>
-        <!--View Controller-->
+        <!--Gem View Controller-->
         <scene sceneID="1P2-qP-LgI">
             <objects>
-                <viewController id="VDY-M5-JQR" sceneMemberID="viewController">
+                <viewController id="VDY-M5-JQR" customClass="gemViewController" customModule="Gemini" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uom-Ng-imS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MGw-cb-WzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1018" y="-533"/>
+            <point key="canvasLocation" x="1016.8" y="-533.88305847076469"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8Mx-iJ-5k4">
@@ -104,7 +104,7 @@
         <!--Gems-->
         <scene sceneID="TpE-8g-a2y">
             <objects>
-                <tableViewController id="7SV-k5-rkD" sceneMemberID="viewController">
+                <tableViewController id="7SV-k5-rkD" customClass="gemsTableViewController" customModule="Gemini" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="UI9-tU-jCR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
