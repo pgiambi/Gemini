@@ -16,8 +16,10 @@
 		50B9E1A1217497BB00BE9B27 /* Gem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9E1A0217497BB00BE9B27 /* Gem.swift */; };
 		50B9E1A62174996200BE9B27 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9E1A52174996200BE9B27 /* mapViewController.swift */; };
 		50B9E1A821749B4E00BE9B27 /* gemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9E1A721749B4E00BE9B27 /* gemViewController.swift */; };
-		50B9E1AC21749C8700BE9B27 /* exploreCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9E1AB21749C8700BE9B27 /* exploreCollectionViewController.swift */; };
-		50B9E1AE21749D1600BE9B27 /* gemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9E1AD21749D1600BE9B27 /* gemsTableViewController.swift */; };
+		50B9E1AC21749C8700BE9B27 /* exploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9E1AB21749C8700BE9B27 /* exploreViewController.swift */; };
+		50B9E1AE21749D1600BE9B27 /* gemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9E1AD21749D1600BE9B27 /* gemsViewController.swift */; };
+		50DF606A21771E190048BE7D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF606921771E190048BE7D /* CollectionViewCell.swift */; };
+		50FD5CA5217783B20011165C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD5CA4217783B20011165C /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +55,10 @@
 		50B9E1A0217497BB00BE9B27 /* Gem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gem.swift; sourceTree = "<group>"; };
 		50B9E1A52174996200BE9B27 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		50B9E1A721749B4E00BE9B27 /* gemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemViewController.swift; sourceTree = "<group>"; };
-		50B9E1AB21749C8700BE9B27 /* exploreCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploreCollectionViewController.swift; sourceTree = "<group>"; };
-		50B9E1AD21749D1600BE9B27 /* gemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemsTableViewController.swift; sourceTree = "<group>"; };
+		50B9E1AB21749C8700BE9B27 /* exploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploreViewController.swift; sourceTree = "<group>"; };
+		50B9E1AD21749D1600BE9B27 /* gemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemsViewController.swift; sourceTree = "<group>"; };
+		50DF606921771E190048BE7D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		50FD5CA4217783B20011165C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +143,10 @@
 				50B9E1A0217497BB00BE9B27 /* Gem.swift */,
 				50B9E19E2174979100BE9B27 /* AppDelegate.swift */,
 				50B9E1A721749B4E00BE9B27 /* gemViewController.swift */,
-				50B9E1AD21749D1600BE9B27 /* gemsTableViewController.swift */,
-				50B9E1AB21749C8700BE9B27 /* exploreCollectionViewController.swift */,
+				50B9E1AD21749D1600BE9B27 /* gemsViewController.swift */,
+				50DF606921771E190048BE7D /* CollectionViewCell.swift */,
+				50B9E1AB21749C8700BE9B27 /* exploreViewController.swift */,
+				50FD5CA4217783B20011165C /* TableViewCell.swift */,
 			);
 			path = "Swift files";
 			sourceTree = "<group>";
@@ -278,9 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B9E19F2174979100BE9B27 /* AppDelegate.swift in Sources */,
+				50FD5CA5217783B20011165C /* TableViewCell.swift in Sources */,
 				50B9E1A1217497BB00BE9B27 /* Gem.swift in Sources */,
-				50B9E1AC21749C8700BE9B27 /* exploreCollectionViewController.swift in Sources */,
-				50B9E1AE21749D1600BE9B27 /* gemsTableViewController.swift in Sources */,
+				50B9E1AC21749C8700BE9B27 /* exploreViewController.swift in Sources */,
+				50DF606A21771E190048BE7D /* CollectionViewCell.swift in Sources */,
+				50B9E1AE21749D1600BE9B27 /* gemsViewController.swift in Sources */,
 				50B9E1A62174996200BE9B27 /* mapViewController.swift in Sources */,
 				50B9E1A821749B4E00BE9B27 /* gemViewController.swift in Sources */,
 			);

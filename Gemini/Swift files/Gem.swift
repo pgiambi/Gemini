@@ -7,10 +7,11 @@
 //
 
 import Foundation
+import UIKit
 
 struct Gem {
     var name: String
-    var info: String?
-    
+    var info: String
+    var image: UIImage
     
 }
