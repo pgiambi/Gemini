@@ -1,4 +1,4 @@
-//  Team Colo(u)rful Sox
+//  Team Colo(u)rful Sox 
 //  GeminiTests.swift
 //  GeminiTests
 //
