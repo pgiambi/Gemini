@@ -21,6 +21,8 @@ class gemViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         gemImage.image = gem?.image ?? nil
+        gemImage.layer.cornerRadius = 10
+        gemImage.layer.masksToBounds = true
         gemName.text = gem?.name ?? "not found"
         scrollView.contentSize = CGSize(width: self.view.frame.size.width, height: 1700)
     }

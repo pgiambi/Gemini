@@ -13,4 +13,9 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var gemName: UILabel!
     @IBOutlet weak var gemImage: UIImageView!
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        self.gemImage.layer.cornerRadius = 10
+        self.gemImage.layer.masksToBounds = true
+    }
 }

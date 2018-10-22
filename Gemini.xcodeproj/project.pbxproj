@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5019D968217094290066FF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5019D966217094290066FF96 /* Main.storyboard */; };
-		5019D96A2170942A0066FF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5019D9692170942A0066FF96 /* Assets.xcassets */; };
 		5019D96D2170942A0066FF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5019D96B2170942A0066FF96 /* LaunchScreen.storyboard */; };
 		5019D9782170942A0066FF96 /* GeminiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5019D9772170942A0066FF96 /* GeminiTests.swift */; };
 		5019D9832170942A0066FF96 /* GeminiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5019D9822170942A0066FF96 /* GeminiUITests.swift */; };
+		504191472178DDDC006DBB9F /* trayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504191462178DDDC006DBB9F /* trayView.swift */; };
+		508BEC052179DC5300A19E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508BEC042179DC5300A19E92 /* Assets.xcassets */; };
 		50B9E19F2174979100BE9B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9E19E2174979100BE9B27 /* AppDelegate.swift */; };
 		50B9E1A1217497BB00BE9B27 /* Gem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9E1A0217497BB00BE9B27 /* Gem.swift */; };
 		50B9E1A62174996200BE9B27 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9E1A52174996200BE9B27 /* mapViewController.swift */; };
@@ -42,7 +43,6 @@
 /* Begin PBXFileReference section */
 		5019D95F217094290066FF96 /* Gemini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gemini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5019D967217094290066FF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5019D9692170942A0066FF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5019D96C2170942A0066FF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5019D96E2170942A0066FF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5019D9732170942A0066FF96 /* GeminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +51,8 @@
 		5019D97E2170942A0066FF96 /* GeminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5019D9822170942A0066FF96 /* GeminiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiUITests.swift; sourceTree = "<group>"; };
 		5019D9842170942A0066FF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504191462178DDDC006DBB9F /* trayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trayView.swift; sourceTree = "<group>"; };
+		508BEC042179DC5300A19E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50B9E19E2174979100BE9B27 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B9E1A0217497BB00BE9B27 /* Gem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gem.swift; sourceTree = "<group>"; };
 		50B9E1A52174996200BE9B27 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
@@ -111,8 +113,8 @@
 			children = (
 				50B9E1A4217497D100BE9B27 /* Swift files */,
 				5019D966217094290066FF96 /* Main.storyboard */,
-				5019D9692170942A0066FF96 /* Assets.xcassets */,
 				5019D96B2170942A0066FF96 /* LaunchScreen.storyboard */,
+				508BEC042179DC5300A19E92 /* Assets.xcassets */,
 				5019D96E2170942A0066FF96 /* Info.plist */,
 			);
 			path = Gemini;
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				50B9E1A52174996200BE9B27 /* mapViewController.swift */,
+				504191462178DDDC006DBB9F /* trayView.swift */,
 				50B9E1A0217497BB00BE9B27 /* Gem.swift */,
 				50B9E19E2174979100BE9B27 /* AppDelegate.swift */,
 				50B9E1A721749B4E00BE9B27 /* gemViewController.swift */,
@@ -257,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5019D96D2170942A0066FF96 /* LaunchScreen.storyboard in Resources */,
-				5019D96A2170942A0066FF96 /* Assets.xcassets in Resources */,
+				508BEC052179DC5300A19E92 /* Assets.xcassets in Resources */,
 				5019D968217094290066FF96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +290,7 @@
 				50FD5CA5217783B20011165C /* TableViewCell.swift in Sources */,
 				50B9E1A1217497BB00BE9B27 /* Gem.swift in Sources */,
 				50B9E1AC21749C8700BE9B27 /* exploreViewController.swift in Sources */,
+				504191472178DDDC006DBB9F /* trayView.swift in Sources */,
 				50DF606A21771E190048BE7D /* CollectionViewCell.swift in Sources */,
 				50B9E1AE21749D1600BE9B27 /* gemsViewController.swift in Sources */,
 				50B9E1A62174996200BE9B27 /* mapViewController.swift in Sources */,

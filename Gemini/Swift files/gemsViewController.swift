@@ -11,7 +11,7 @@ import UIKit
 private let reuseIdentifier = "tabCell"
 
 class gemsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    var gems: [Gem] = [Gem.init(name: "Positano", info: "beautiful", image: UIImage(named: "positano")!),Gem.init(name: "Sorrento", info: "", image: UIImage(named: "sorrento")!),Gem.init(name: "Baia trentaremi", info: "", image: UIImage(named: "baia trentaremi")!)]
+    var gems: [Gem] = [Gem.init(name: "Positano", info: "beautiful", image: UIImage(named: "positano")!),Gem.init(name: "Sorrento", info: "", image: UIImage(named: "sorrento")!),Gem.init(name: "Baia Trentaremi", info: "", image: UIImage(named: "baia trentaremi")!)]
     
     @IBOutlet weak var gemTableView: UITableView!
     

@@ -12,4 +12,10 @@ class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var gemName: UILabel!
     @IBOutlet weak var gemImage: UIImageView!
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        self.layer.cornerRadius = 10
+        self.layer.masksToBounds = true
+    }
+    
 }

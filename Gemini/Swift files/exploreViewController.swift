@@ -12,7 +12,7 @@ private let reuseIdentifier = "Cell"
 
 class exploreViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    var gems: [Gem] = [Gem.init(name: "Positano", info: "beautiful", image: UIImage(named: "positano")!),Gem.init(name: "Sorrento", info: "", image: UIImage(named: "sorrento")!),Gem.init(name: "Baia trentaremi", info: "", image: UIImage(named: "baia trentaremi")!)]
+    var gems: [Gem] = [Gem.init(name: "Positano", info: "beautiful", image: UIImage(named: "positano")!),Gem.init(name: "Sorrento", info: "", image: UIImage(named: "sorrento")!),Gem.init(name: "Baia\nTrentaremi", info: "", image: UIImage(named: "baia trentaremi")!)]
 
     @IBOutlet weak var gemCollectionView: UICollectionView!
     
@@ -20,6 +20,7 @@ class exploreViewController: UIViewController, UICollectionViewDelegate, UIColle
         super.viewDidLoad()
         self.gemCollectionView.delegate = self
         self.gemCollectionView.dataSource = self
+        
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
